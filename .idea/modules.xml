@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cidadoes.iml" filepath="$PROJECT_DIR$/cidadoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gov-registry.iml" filepath="$PROJECT_DIR$/gov-registry.iml" />
     </modules>
   </component>
 </project>
