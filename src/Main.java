@@ -6,7 +6,7 @@ import java.util.Scanner;
 
     Scanner leitura = new Scanner(System.in);
 
-    Pessoa pessoa = new pessoa();
+    Pessoa pessoa = new Pessoa();
 
     System.out.println("===== CADASTRO DE CIDADÃO ======");
 
