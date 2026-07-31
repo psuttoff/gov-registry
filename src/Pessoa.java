@@ -1,4 +1,4 @@
-    public class pessoa {
+    public class Pessoa {
 
     String nome;
     String cpf;
