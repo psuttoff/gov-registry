@@ -1,12 +1,18 @@
+import java.util.ArrayList;
+
 public class Cadastro {
 
-    public boolean cadastrar(Pessoa pessoa){
+    ArrayList<Pessoa> pessoas = new ArrayList<>();
 
-        if(pessoa.nome != null && pessoa.cpf != null){
+    public boolean cadastrar (Pessoa pessoa) {
+
+        for (Pessoa p : pessoas){
+
+        if (pessoa.cpf.equals(pessoa.cpf)) {
+            return false;}
+
+            pessoas.add(pessoa);
             return true;
         }
-
-        return false;
-
     }
 }
