@@ -8,7 +8,7 @@ public class Cadastro {
 
         for (Pessoa p : pessoas){
 
-        if (pessoa.cpf.equals(pessoa.cpf)) {
+        if (p.cpf.equals(pessoa.cpf)) {
             return false;}
 
             pessoas.add(pessoa);
