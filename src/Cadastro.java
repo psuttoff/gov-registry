@@ -6,13 +6,15 @@ public class Cadastro {
 
     public boolean cadastrar (Pessoa pessoa) {
 
-        for (Pessoa p : pessoas){
+        for (Pessoa p : pessoas) {
 
-        if (p.cpf.equals(pessoa.cpf)) {
-            return false;}
+            if (p.cpf.equals(pessoa.cpf)) {
+                return false;
+            }
+        }
 
             pessoas.add(pessoa);
             return true;
         }
+
     }
-}
